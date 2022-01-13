@@ -1,0 +1,69 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #6166dc;
+  text-align: center;
+  font-weight: bold;
+}
+.search-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.search-input {
+  height: 40px;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding-left: 15px;
+  outline: none;
+  border: 1px #000000 solid;
+  border-radius: 6px;
+}
+
+.stocks-list {
+  margin: 0px;
+  padding: 0px;
+  width: 90%;
+}
+
+.watch-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.owner-name {
+  color: #111111;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 60px;
+}
+
+.watch-list {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .owner-name {
+    font-size: 20px;
+  }
+
+  .watch-list {
+    font-size: 20px;
+  }
+}

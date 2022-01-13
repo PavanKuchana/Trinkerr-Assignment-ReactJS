@@ -1,0 +1,40 @@
+.stocks-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px #d9d9d9 solid;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-tag-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.card-heading {
+  font-size: 16px;
+}
+
+.delete-button {
+  color: #e91e63;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
